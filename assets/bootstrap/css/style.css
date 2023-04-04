@@ -1,0 +1,33 @@
+:root {
+  --primary-color: #acff00;
+}
+a:hover {
+  color: var(--primary-color) !important;
+}
+.card a,
+.card input[type="submit"] {
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+.card a:hover,
+.card input[type="submit"]:hover {
+  background-color: transparent !important;
+  border: 2px solid var(--primary-color) !important;
+  color: var(--primary-color);
+}
+i.fab:hover {
+  color: #fff !important;
+}
+@media only screen and (max-width: 992px) {
+  p {
+    font-size: 14px !important;
+  }
+  #home-heading {
+    font-size: 7vh !important;
+  }
+}
+.cetagoris li {
+  /* display: block !important; */
+
+  list-style: none;
+}

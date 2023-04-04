@@ -1,0 +1,139 @@
+/* Solid Social Share Buttons */
+
+.btn-social,
+.btn-social:visited,
+.btn-social:focus,
+.btn-social:hover,
+.btn-social:active {
+  color: #ffffff !important;
+  text-decoration: none;
+  transition: opacity 0.15s ease-in-out;
+}
+
+.btn-social:hover,
+.btn-social:active {
+  opacity: 0.75;
+}
+
+.btn-fb {
+  background-color: #3b5998;
+}
+
+.btn-tw {
+  background-color: #1da1f2;
+}
+
+.btn-in {
+  background-color: #0077b5;
+}
+
+.btn-gp {
+  background-color: #db4437;
+}
+
+.btn-rd {
+  background-color: #ff4500;
+}
+
+.btn-hn {
+  background-color: #ff4000;
+}
+
+/* Outline Social Share Buttons */
+
+.btn-social-outline {
+  background-color: transparent;
+  background-image: none;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+}
+
+.btn-fb-outline {
+  color: #acff00;
+  border-color: #acff00;
+}
+
+.btn-fb-outline:hover,
+.btn-fb-outline:active {
+  color: #acff00;
+  background-color: #fff;
+  border: 1px solid #acff00;
+}
+
+.btn-tw-outline {
+  color: #acff00;
+  border-color: #acff00;
+}
+
+.btn-tw-outline:hover,
+.btn-tw-outline:active {
+  color: #acff00;
+  background-color: #fff;
+  border: 1px solid #acff00;
+}
+
+.btn-in-outline {
+  color: #acff00;
+  border-color: #acff00;
+}
+
+.btn-in-outline:hover,
+.btn-in-outline:active {
+  color: #acff00;
+  background-color: #fff;
+  border: 1px solid #acff00;
+}
+
+.btn-gp-outline {
+  color: #acff00;
+  border-color: #acff00;
+}
+.btn-gp-outline:hover,
+.btn-gp-outline:active {
+  color: #acff00;
+  background-color: #fff;
+  border: 1px solid #acff00;
+}
+
+.btn-rd-outline {
+  color: #acff00;
+  border-color: #acff00;
+}
+
+.btn-rd-outline:hover,
+.btn-rd-outline:active {
+  color: #acff00;
+  background-color: #fff;
+  border: 1px solid #acff00;
+}
+
+.btn-hn-outline {
+  color: #acff00;
+  border-color: #acff00;
+}
+
+.btn-hn-outline:hover,
+.btn-hn-outline:active {
+  color: #acff00;
+  background-color: #fff;
+  border: 1px solid #acff00;
+}
+
+/* Fluid Styles */
+
+.fluid {
+  display: flex;
+}
+
+.fluid a {
+  flex-grow: 1;
+  margin-right: 0.25rem;
+}
+
+.fluid a:last-child {
+  margin-right: 0rem;
+}
+.fab:hover {
+  color: #fff !important;
+}
